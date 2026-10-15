@@ -1,0 +1,16 @@
+id = "angular-prime-ng-autoimport-lsp"
+name = "Angular PrimeNG Auto Import"
+description = "Adds the PrimeNG import to the Angular component (.ts) automatically when a p-* component is used in the template."
+version = "0.1.0"
+schema_version = 1
+authors = ["gnegraoleal"]
+repository = "https://github.com/gnegraoleal/angular-prime-ng-autoimport"
+
+[language_servers.angular-prime-ng-autoimport-lsp]
+name = "Angular PrimeNG Auto Import"
+languages = ["HTML", "Angular", "TypeScript"]
+
+[language_servers.angular-prime-ng-autoimport-lsp.language_ids]
+HTML = "html"
+Angular = "angular"
+TypeScript = "typescript"

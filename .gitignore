@@ -1,0 +1,8 @@
+# Rust build output
+/target
+**/*.rs.bk
+
+# Editor / OS
+.DS_Store
+Thumbs.db
+.zed/
